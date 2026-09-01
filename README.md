@@ -97,6 +97,7 @@ Backend API: http://localhost:8080
 ### 4. Run the AI Buyer Agent
 While your servers are running via start.py, open a new terminal window and execute the autonomous buyer agent script to test purchasing scenarios (auto-approval, human intervention queue, and hard budget blocks):
 
+```python
 python agent/buyer.py
-
+```
 Watch the terminal output trace the AI's real-time reasoning while your web dashboard instantly updates with live transaction statuses, audit logs, clickable Razorpay test payment links, and interactive human-override buttons.
