@@ -78,13 +78,13 @@ CORS_ORIGINS=http://localhost:5173
 
 ### 2. Install Dependencies
 Open your terminal in the root project directory and install the required packages for both backend and frontend:
-
+```bash
 cd backend
 pip install -r requirements.txt
 cd ../frontend
 npm install
 cd ..
-
+```
 ### 3. Launch the System (One-Click Launcher)
 Boot both the FastAPI backend and the Vite React frontend simultaneously and automatically open the Command Center dashboard in your browser:
 
