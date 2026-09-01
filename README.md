@@ -58,6 +58,7 @@ razor-mcp/
 ### 1. Environment Configuration
 Create a `.env` file in the root directory with your API credentials and budget rules:
 
+```ini
 RAZORPAY_KEY_ID=rzp_test_your_actual_key
 RAZORPAY_KEY_SECRET=your_actual_secret
 RAZORPAY_MOCK_MODE=false
@@ -71,6 +72,7 @@ ALLOWED_SKUS=*
 
 DATABASE_URL=sqlite:///./razormcp.db
 CORS_ORIGINS=http://localhost:5173
+```
 
 ### 2. Install Dependencies
 Open your terminal in the root project directory and install the required packages for both backend and frontend:
