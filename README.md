@@ -84,7 +84,9 @@ cd ..
 ### 3. Launch the System (One-Click Launcher)
 Boot both the FastAPI backend and the Vite React frontend simultaneously and automatically open the Command Center dashboard in your browser:
 
-## python start.py
+```python
+python start.py
+```
 
 Dashboard URL: http://localhost:5173
 
