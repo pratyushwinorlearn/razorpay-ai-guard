@@ -21,7 +21,7 @@ Traditional e-commerce is built for human interfaces (GUIs). **Razorpay AI Guard
   * *Human Intervention:* Orders between ₹5,000 and ₹50,000 are routed to a `pending_approval` queue requiring explicit merchant sign-off from the dashboard.
   * *Hard Block:* Orders exceeding ₹50,000 are rejected outright.
 * **Complete Audit Trail:** Every agent interaction, tool call, raw payload, and explicit AI reasoning string is persisted to a SQLite database and streamed in real-time to the Merchant Command Center dashboard.
-* **⚡ Robust Failure Handling:** Network drops, malformed payloads, or Razorpay API errors are intercepted by structured `try/except` blocks, safely logging error states and routing failed transactions to secure fallback queues instead of crashing the server.
+* **Robust Failure Handling:** Network drops, malformed payloads, or Razorpay API errors are intercepted by structured `try/except` blocks, safely logging error states and routing failed transactions to secure fallback queues instead of crashing the server.
 
 ---
 
@@ -84,7 +84,7 @@ cd ..
 ### 3. Launch the System (One-Click Launcher)
 Boot both the FastAPI backend and the Vite React frontend simultaneously and automatically open the Command Center dashboard in your browser:
 
-python start.py
+## python start.py
 
 Dashboard URL: http://localhost:5173
 
