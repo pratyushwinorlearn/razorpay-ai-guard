@@ -36,6 +36,7 @@ Traditional e-commerce is built for human interfaces (GUIs). **Razorpay AI Guard
 
 ## Project Structure
 
+```text
 razor-mcp/
 ├── agent/
 │   └── buyer.py          # Autonomous Groq-driven buyer agent script
@@ -52,6 +53,7 @@ razor-mcp/
 ├── start.py              # One-click multi-process launcher script
 ├── .gitignore
 └── README.md
+```
 
 # Quickstart & Execution Guide
 
